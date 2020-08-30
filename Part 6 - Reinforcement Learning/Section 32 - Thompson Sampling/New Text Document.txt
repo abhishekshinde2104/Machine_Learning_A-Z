@@ -1,0 +1,10 @@
+"""for n=0 we will go through 10 versions of ad and since at 1st(i=0) round no ad was selected if(number_of_selections[i]>0) 
+will nevere be true and therefore it goes to else and sets the upper_bound=1e400.
+then max_upper_bound=upper_bound=1e400
+then we go to next step i.e i=1 i.e 2nd ad
+and this 2nd ad hasnt been selected yet and therefore upper_bound=1e400
+and then the if(upper_bound > max_upper_bound) and this if statement turns FALSE and 
+therfore ad isnot set 1 and ad remians 0 and therefore for n=0 ad=0 is selected 
+n=1 ad=1 is selected upto n=9 ad=9 is selected
+for n=1 numbers_of_selections[0]>0 and not not for numbers_of_selections[1] and therfore the same way ad 1 is selected
+"""
